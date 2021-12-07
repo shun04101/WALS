@@ -3,3 +3,256 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none; /* リンクの下線を無くす */
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-between; /* 各アイテムを均等に配置し最初のアイテムは先頭に寄せ、最後のアイテムは末尾に寄せる */
+  font-size: 0;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  line-height: 70px;
+  color: #fafafa;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+  width: 120px;
+}
+
+.nav-list a {
+  color: #fafafa;
+}
+
+#main-visual {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  color: #fafafa;
+  background-image: url(img/mv.png);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.main-visual-title {
+  padding-top: 200px;
+  font-size: 64px;
+  color: #fafafa;
+}
+
+.main-visual-text {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+#Portfolio {
+  background-color: #eceff1;
+}
+
+.topic {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+}
+
+.topic-text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.Portfolio-list {
+  width: 920px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.box {
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.box1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.box2 {
+  background-image: url(img/websuku.png);
+}
+
+.box3 {
+  background-image: url(img/write.jpg);
+  margin-right: 0%;
+}
+
+.box4 {
+  background-image: url(img/webcamp.png);
+}
+
+.box5 {
+  background-image: url(img/talk.jpg);
+}
+
+.box6 {
+  background-image: url(img/webcamp-mother.png);
+  margin-right: 0%;
+}
+
+/* #Feature {
+  background-size: cover;
+  background-position: center;
+} */
+
+.strength-group {
+  display: flex;
+  width: auto;
+  padding: 30px 0 90px 0;
+  /* margin: 0 auto; */
+}
+
+.strength {
+  width: 320px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.strength:last-child {
+  margin-right: 0%;
+}
+
+.strength-title {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.strength-text {
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+}
+
+#Profile {
+  background-color: #eceff1;
+}
+
+.profile-group {
+  display: flex;
+  padding: 30px 0 90px 0;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.face {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+  margin: 0 auto;
+}
+
+.right-content {
+  width: 50%;
+}
+
+.right-content-title {
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.right-content-title:first-child {
+  margin-top: 0%;
+}
+
+.right-content-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact-group {
+  display: flex;
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.left-content-contact {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.left-content-title {
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.left-content-title:first-child {
+  margin-top: 0%;
+}
+
+.left-content-text {
+  font-size: 16px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* .right-content-contact {
+  width: 170px;
+  margin: 0 auto;
+} */
+
+.right-content-contact .fab {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.right-content-contact .fab:last-child {
+  margin-right: 0;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #ec715f;
+  line-height: 60px;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #fafafa;
+  text-align: center;
+}
